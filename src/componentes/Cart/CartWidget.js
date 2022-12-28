@@ -12,7 +12,7 @@ const Carrito =()=>{
 <FontAwesomeIcon icon={faCartShopping}/>
 
 
-                <Badge pill bg="danger">{iconCart()}</Badge>
+                <Badge pill bg="danger"></Badge>
 
         </>
     )
