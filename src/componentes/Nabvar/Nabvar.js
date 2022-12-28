@@ -1,4 +1,4 @@
-// import Container from 'react-bootstrap/Container';
+import Container from 'react-bootstrap/Container';
 
 import Nav from 'react-bootstrap/Nav';
 
@@ -16,7 +16,7 @@ function ListadeMenues() {
     <>
    
       <Navbar bg="dark" variant="dark" className="hola" >
-        {/* <Container className="contenedorMenu"> */}
+        <Container className="contenedorMenu">
           <Navbar.Brand href="#home"><img className="logo" src={Logo} alt="logo" /></Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="#INICIO">INICIO</Nav.Link>
@@ -31,7 +31,7 @@ function ListadeMenues() {
             
           </Nav>
           
-        {/* </Container> */}
+        </Container> 
 
       </Navbar>
       
