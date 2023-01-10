@@ -2,15 +2,10 @@
 import React from 'react';
 
 
- 
-const ItemListContainer = () => {
-
+const ItemListContainer = (props) => {
     return (
-        <>  
-
-            <span style={{color:"red"}}> Holaa </span> 
-        </>
-    );
+        <div>{props.greeting}</div>
+    )
 }
 
 export default ItemListContainer;

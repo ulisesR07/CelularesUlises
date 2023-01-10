@@ -1,13 +1,20 @@
 import Home from "./pages/Home"
-import Card from "./Card"
+import "./App.css";
+import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer";
 
 
 function App() {
 
   return (
+    <> 
+    <ItemListContainer greeting="holaaaa"/>
+    
+    <Home/>
+    </>
   
-  <Home/>
   )
 }
 
 export default App;
+
+

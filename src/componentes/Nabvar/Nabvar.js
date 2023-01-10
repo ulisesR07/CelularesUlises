@@ -11,7 +11,7 @@ import CartWidget from '../Cart/CartWidget'
 
 
 
-function ListadeMenues() {
+function Nabvar() {
   return (
     <>
    
@@ -39,4 +39,4 @@ function ListadeMenues() {
   );
 }
 
-export default ListadeMenues;
+export default Nabvar;
