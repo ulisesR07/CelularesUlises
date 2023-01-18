@@ -1,5 +1,7 @@
 import Container from 'react-bootstrap/Container';
 
+import {Link} from 'react-router-dom';
+
 import Nav from 'react-bootstrap/Nav';
 
 import Navbar from 'react-bootstrap/Navbar';
@@ -28,7 +30,9 @@ function Nabvar() {
             <Nav.Link href="#CARRITO"> <CartWidget/> </Nav.Link>
 
 <br/>
-            
+            <Link to='/categoria/1'>Categoria 1</Link>
+            <br /> 
+            <Link to='/categoria/2'>Categoria 2</Link>
           </Nav>
           
         </Container> 
