@@ -3,9 +3,9 @@ const productos =[
     id:20,
     nombre:"Producto 1",
     stock:9,
-    costo: 140,
-    descripcion:"Producto 1 contiene un metal reforzado, de primera calidad",
-    imagen:["logo.png"],
+    costo: 350000,
+    descripcion:"Producto 1 el mejor android del momento",
+    imagen:["s23.jpg"],
     idcategoria:1,
     categoria:{
         nombre:"ss",
@@ -16,9 +16,9 @@ const productos =[
         id:21,
         nombre:"Producto 2",
         stock:5,
-        costo: 145,
-        descripcion:"Producto 2 es un producto que se destaca por su confortable resistencia a la humedad",
-        imagen:["logo.png"],
+        costo: 40000,
+        descripcion:"Producto 2 mejor iphone del momento",
+        imagen:["iphone.jpg"],
         idcategoria:2,
         categoria:{
             nombre:"ee",
@@ -30,3 +30,4 @@ const productos =[
     module.exports = {
         productos,
       }
+    
