@@ -12,7 +12,6 @@ return (
         ?items.map(item=><Item key={item.id} id={item.id} title={item.nombre}  price={item.costo} pictureUrl={item.imagen} stock={item.stock} idcategoria={item.idcategoria}/>)
         :<p>Cargando no hay categoria...</p>
 
-    
     }
 </div>
 );

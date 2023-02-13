@@ -1,18 +1,14 @@
-//tematica de la CLASE 4: crear ItemCount.js
 import { useEffect, useState } from 'react';
-
-/*al parametro "initial" llegara el useState llamado itemCount, 
-que se encuentra declarado en el componente ItemDetail */
 const ItemCount = ({ stock = 0, initial = 1,  onAdd }) => {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
-        setCount(initial); /*con el valor de initial seteo el useState llamado count*/
+        setCount(initial); 
     },[initial]);
 
     const increment = () => {
         if (count < stock) {
-            setCount(count + 1);/*cada vez que cambie el valor de count cambiara el useState itemCount, porque entro a traves del parametro llamado initial*/
+            setCount(count + 1);
 
             console.log(count)
         }
@@ -26,7 +22,6 @@ const ItemCount = ({ stock = 0, initial = 1,  onAdd }) => {
     }
     return (
         <>
-
             <button variant="text" onClick={increment} >+</button>
            <span>{count}</span>
             <button variant="text" onClick={decrement}>-</button>

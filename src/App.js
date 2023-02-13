@@ -1,12 +1,15 @@
-import './App.css';
 import Home from "./pages/Home"
-function App() {
+import { CartContextProvider } from "./context/cartContext";
+
+const App = () => {
+
+
   return (
-    <div className="App">
-      <Home />
-      
-    </div>
+    
+    <CartContextProvider>
+    <Home />
+    </CartContextProvider>
   );
-}
+};
 
 export default App;
