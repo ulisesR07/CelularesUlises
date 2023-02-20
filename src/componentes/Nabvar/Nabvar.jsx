@@ -18,18 +18,14 @@ function ListadeMenues() {
         <Container className="contenedorMenu">
           <Navbar.Brand href="#home"><img className="logo" src={Logo} alt="logo" /></Navbar.Brand>
           <Nav className="ml-auto">
-            <Nav.Link href="#INICIO">INICIO</Nav.Link>
-            <Nav.Link href="#TIENDA">TIENDA ONLINE</Nav.Link>
-            <Nav.Link href="#OFERTAS">OFERTAS</Nav.Link>
-
-         
+            <Nav.Link href="/">INICIO</Nav.Link>
 
             <Nav.Link href="#CARRITO"> <CartWidget/> </Nav.Link>
 
 <br/>
             <Link to='/categoria/gQbleZpL8H3lPptG62Tw'>Categoria 1</Link>
             <br/>
-            <Link to='/categoria/xHK8WHsUk0MELGrlCvDt'>Categoria 2</Link>
+            <Link to='/categoria/Qf2VSognZeSGMVODMTMS'>Categoria 2</Link>
             
           </Nav>
         </Container>
