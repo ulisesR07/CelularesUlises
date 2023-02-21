@@ -8,15 +8,13 @@ import Logo from '../../assets/img/logo.png';
 import CartWidget from '../Cart/CartWidget'
 
 
-
-
 function ListadeMenues() {
   return (
     <>
    
       <Navbar bg="dark" variant="dark" className="hola" >
         <Container className="contenedorMenu">
-          <Navbar.Brand href="#home"><img className="logo" src={Logo} alt="logo" /></Navbar.Brand>
+          <Navbar.Brand href="/"><img className="logo" src={Logo} alt="logo" /></Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="/">INICIO</Nav.Link>
 

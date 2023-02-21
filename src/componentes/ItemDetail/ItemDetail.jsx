@@ -10,11 +10,7 @@ import { useCartContext } from "../../context/cartContext";
 const ItemDetail = ({ item }) => {
     const [itemCount, setItemCount] = useState(0);
   
-console.log("ItemDetailll: "+item)
-    
     const { addToCart } = useCartContext();
-   
-    
    
    const onAdd = (qty) => {
     console.log("ItemDetail,Dentro de onAdd: "+(item.id))

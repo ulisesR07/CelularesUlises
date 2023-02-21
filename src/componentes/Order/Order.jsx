@@ -15,8 +15,6 @@ const Order = () => {
 
   useEffect(() => {
     const query= getItemById(id);
-    //query
-      //.get()
       getDoc(query)
       .then((res) => {
         const order = res.data();
@@ -27,8 +25,6 @@ const Order = () => {
       .catch((err) => console.error(err))
       .finally(() => setLoad(false));
   }, [id]);
-console.log("ORDER ORDER:")
-console.log(products)
   const totalLong = products.reduce((acum, valor) => acum + valor.costo, 0);
   const total = parseFloat(totalLong).toFixed(2);
 

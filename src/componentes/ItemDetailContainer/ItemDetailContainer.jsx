@@ -6,11 +6,7 @@ import { doc, getDoc, getFirestore } from 'firebase/firestore';
 const ItemDetailContainer = () => {
     const [dato, setDato] = useState({});
     const { idItem } = useParams();
-    console.log(idItem);
-    console.log("HOLA3");
 
-  
-    
     useEffect(() => {
 
         const db = getFirestore()

@@ -8,8 +8,6 @@ const ItemListContainer = () => {
     const [datos, setDatos] = useState([]);
     const { idCategory } = useParams();
 
-
-    console.log("ItemListContainer idCategoria:"+ idCategory);
    useEffect(() =>{
     
     getItems().then((res) =>{

@@ -39,15 +39,8 @@ const [formData, setFormData] = useState({});/*para guardar el valor de los text
     });
 
   
-console.log("FORMCOUNT")
-console.log(orden);
-
- 
 
 const ident=await createItem({orden})
-console.log("IDENTIFICADOR")
-console.log(ident);
-
 
 setOrderId(ident);
 setOrderReady(true);

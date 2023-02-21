@@ -9,15 +9,12 @@ const ItemCount = ({ stock = 0, initial = 1,  onAdd }) => {
     const increment = () => {
         if (count < stock) {
             setCount(count + 1);
-
-            console.log(count)
         }
     }
     
     const decrement = () => {
         if (count > initial+1) {
             setCount(count - 1);
-            console.log(count)
         }
     }
     return (
